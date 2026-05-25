@@ -57,8 +57,7 @@ Unity 3D 기반의 근접 액션 및 원소 반응 시스템 프로토타입입�
 ↓
 [Reaction Effect]
 Steam / Overload / ElectroCharged
-'''
-
+```
 
 ### ElementReceiver
 외부 원소와의 충돌 및 상호작용을 감지합니다.
