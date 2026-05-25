@@ -28,9 +28,13 @@ Unity 3D 기반의 근접 액션 시스템입니다.
 정확한 공격 타이밍을 구현할 수 있도록 설계했습니다.
 
 <img width="984" height="838" alt="Unity_XhKY4abEZy" src="https://github.com/user-attachments/assets/674179ae-b140-4727-80fa-01c1040fa473" />
+
+
 3단 콤보 어택 gif입니다.
 
 <img width="727" height="707" alt="gitbox gizmo" src="https://github.com/user-attachments/assets/fef1dbdb-6812-49ec-ae80-fe885b7333e1" />
+
+
 각 공격 부위의 hitbox gizmo를 구분하였습니다.
 
 
@@ -60,6 +64,8 @@ Unity 3D 기반의 근접 액션 시스템입니다.
 새로운 원소 반응을 추가하거나 수정하기 쉽도록 구조화했습니다.
 
 <img width="984" height="838" alt="Unity_pIsVFthJpb" src="https://github.com/user-attachments/assets/704eb051-15d7-4fa7-a175-f0c6cb39139f" />
+
+
 물건을 집는 모션과 
 불 원소와 전기 원소가 충돌시에 폭발이 일어나는 gif입니다.
 
