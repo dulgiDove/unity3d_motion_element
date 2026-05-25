@@ -40,6 +40,25 @@ Unity 3D 기반의 근접 액션 및 원소 반응 시스템 프로토타입입�
 ## 원소 시스템
 
 원소 시스템은 역할 분리를 중심으로 설계했습니다.
+원소 충돌 감지, 반응 판정, 실제 실행 책임을 각각 분리하여 구현했습니다
+
+'''
+[ElementSource]
+원소를 제공하는 오브젝트
+↓
+[ElementReceiver]
+외부 원소와의 충돌 및 상호작용 감지
+↓
+[ElementReactionResolver]
+현재 원소와 입력 원소를 기반으로 반응 종류 판정
+↓
+[ElementReactionManager]
+반응 효과 및 데미지 처리 실행
+↓
+[Reaction Effect]
+Steam / Overload / ElectroCharged
+'''
+
 
 ### ElementReceiver
 외부 원소와의 충돌 및 상호작용을 감지합니다.
